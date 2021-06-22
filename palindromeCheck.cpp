@@ -2,8 +2,8 @@
 #include <iostream>
 #include <algorithm> // for remove and remove_if
 #include <functional> // for std::not1
-#include <locale>
-#include <string>
+//#include <locale>
+//#include <string>
 
 using std::string; using std::transform;
 using std::remove_copy_if; using std::back_inserter;

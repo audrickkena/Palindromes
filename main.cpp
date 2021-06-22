@@ -27,11 +27,11 @@ int main()
 		getline(cin, userInp);
 		if (isPalindrome(userInp))
 		{
-			cout << userInp << " is a palindrome\n";
+			cout << "\nThe entered string: \"" << userInp << "\"\n\nThe entered string is a palindrome\n";
 		}
 		else
 		{
-			cout << userInp << " is not a palindrome\n";
+			cout << "\nThe entered string: \"" << userInp << "\"\n\nThe entered string is not a palindrome\n";
 		}
 	}
 	return 0;
