@@ -10,12 +10,12 @@ using std::remove_copy_if; using std::back_inserter;
 using std::ptr_fun; using std::not1;
 
 // to use as predicate for what to remove in string input
-bool toRemove(unsigned char c) {
-	return (c == ' ' || c == '\n' || c == '\r' ||
-		c == '\t' || c == '\v' || c == '\f' || c == ',' ||
-		c == '.' || c == '/' || c == '!' || c == '?' || c == ':' ||
-		c == '-' || c == '--');
-}
+//bool toRemove(unsigned char c) {
+//	return (c == ' ' || c == '\n' || c == '\r' ||
+//		c == '\t' || c == '\v' || c == '\f' || c == ',' ||
+//		c == '.' || c == '/' || c == '!' || c == '?' || c == ':' ||
+//		c == '-' || c == '--');
+//}
 
 // to return a string that only contains lowercase alphabetical chars
 string cleanInp(const string &inp)
