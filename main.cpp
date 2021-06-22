@@ -3,11 +3,11 @@
 
 using std::string; using std::cout;
 
-bool isPalindrome(string toCheck)
+void isPalindrome(string toCheck)
 {
 	if (toCheck.length() == 1)
 	{
-		return false;
+		cout << toCheck << " is not a palindrome";
 	}
 	else
 	{
@@ -16,23 +16,16 @@ bool isPalindrome(string toCheck)
 		{
 			if (toCheck[i] != toCheck[toCheck.length() - i - 1])
 			{
-				return false;
+				cout << toCheck << " is not a palindrome";
 			}
 		}
-		return true;
+		cout << toCheck << " is a palindrome";
 	}
 }
 
 int main() 
 {
 	string word = "deed";
-	if (isPalindrome(word) == true)
-	{
-		cout << word << " is a palindrome";
-	}
-	else
-	{
-		cout << word << " is not a palindrome";
-	}
+	isPalindrome(word);
 	return 0;
 }
