@@ -17,7 +17,7 @@ int main()
 	int procLength;
 	string userInp;
 
-	// full implementation
+	// full implementation of palindrome check
 	cout << "Enter number of words/phrases/sentences to process: ";
 	cin >> procLength;
 	cin.ignore();
